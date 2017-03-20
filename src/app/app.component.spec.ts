@@ -1,14 +1,17 @@
 /* tslint:disable:no-unused-variable */
-
-import { TestBed, async } from '@angular/core/testing';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
+import { TestBed, async,ComponentFixture } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-
-describe('AppComponent', () => {
+import { Routes, RouterModule } from '@angular/router';
+describe('Component: App', () => {
+  let component: AppComponent;
+  let fixture: ComponentFixture<AppComponent>;
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
       ],
+      schemas: [ NO_ERRORS_SCHEMA ]
     });
     TestBed.compileComponents();
   });
@@ -25,10 +28,5 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('app works!');
   }));
 
- /* it('should render title in a h1 tag', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('app works!');
-  }));*/
+  
 });
