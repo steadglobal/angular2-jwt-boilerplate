@@ -4,7 +4,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 ## Development server
 * Run `ng start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-* Run `ng start server` for a backend expressjs server.
+* Run `ng run server` for a backend expressjs server.
 
 ## Code scaffolding
 
