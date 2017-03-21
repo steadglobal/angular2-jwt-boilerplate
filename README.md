@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/steadglobal/angular2-jwt-boilerplate.svg?branch=master)](https://travis-ci.org/steadglobal/angular2-jwt-boilerplate)
+[![Build Status](https://travis-ci.org/steadglobal/angular2-jwt-boilerplate.svg?branch=master)](https://travis-ci.org/steadglobal/angular2-jwt-boilerplate) [![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/npm.svg)]()
 
 # Angular2JWTBoilerplate
 

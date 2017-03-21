@@ -1,7 +1,8 @@
 {
   "name": "angular2-jwt-boilerplate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
+  "author": "Shabeer Ayar",
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
