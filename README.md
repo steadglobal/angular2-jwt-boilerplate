@@ -27,7 +27,7 @@ This project uses the [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_
 4. Browser will automatically open to: [localhost:4200](http://localhost:4200)
 
 ## Running unit tests
-1. karma start karma.conf.js --single-run
+1. Run `karma start karma.conf.js --single-run` to run unit tests.
 
 
 ## Code scaffolding
