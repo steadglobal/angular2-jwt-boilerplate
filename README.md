@@ -1,4 +1,4 @@
-https://api.travis-ci.org/steadglobal/angular2-jwt-boilerplate.svg?branch=master
+[![Build Status](https://travis-ci.org/steadglobal/angular2-jwt-boilerplate.svg?branch=master)](https://travis-ci.org/steadglobal/angular2-jwt-boilerplate)
 
 # Angular2JWTBoilerplate
 
