@@ -1,3 +1,5 @@
+https://api.travis-ci.org/steadglobal/angular2-jwt-boilerplate.svg?branch=master
+
 # Angular2JWTBoilerplate
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
