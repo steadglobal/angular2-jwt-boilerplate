@@ -1,7 +1,7 @@
 <div class="row mt-lg-3">
 	<div class="col-lg-6 push-lg-3 col-md-6 push-md-3 col-sm-8 push-sm-2">
 	    <h2>Signup</h2>
-	    <form name="form" (ngSubmit)="register.form.valid && register()" #register="ngForm" novalidate>
+	    <form  (ngSubmit)="register.form.valid && register()" #register="ngForm" novalidate>
 	        <div class="form-group" [ngClass]="{ 'has-danger': register.submitted && !email.valid }">
 	            <label for="firstName">First Name</label>
 	            <input type="text" class="form-control form-control-danger" name="firstName" [(ngModel)]="user.firstName" #firstName="ngModel" required />
