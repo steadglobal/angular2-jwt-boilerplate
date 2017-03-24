@@ -50,4 +50,10 @@ router.get('/users', function(req, res) {
     res.json(users);
   });
 });
+router.get('/users/:id', function(req, res) {
+  User.findOne({_id: req.params.id}, function(err, obj) {
+    if(err) return res.status(400).json(err);
+    res.json(obj);
+  })
+});
 module.exports = router

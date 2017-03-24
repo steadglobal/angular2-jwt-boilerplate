@@ -5,12 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { UsersModule }     from './users/users.module';
 
-import { AppComponent } from './app.component';
-
 import { AppRoutingModule } from './app-routing.module';
-import {PageNotFoundComponent} from './not-found.component'
-import { HomeComponent } from './home.component';
+
 import { UserService } from './users/shared/user.service'
+import { AuthService } from './users/shared/auth.service'
+import { AuthGuardService } from './auth-guard.service';
+
+import { AppComponent } from './app.component';
+import { PageNotFoundComponent } from './not-found.component'
+import { HomeComponent } from './home.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,7 @@ import { UserService } from './users/shared/user.service'
     UsersModule,
     AppRoutingModule
   ],
-  providers: [UserService],
+  providers: [AuthService,UserService,AuthGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
