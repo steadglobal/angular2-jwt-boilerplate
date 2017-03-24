@@ -10,7 +10,7 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { APP_BASE_HREF } from '@angular/common';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppRoutingModule } from '../../app-routing.module';
-import { UserService } from '../shared/user.service';
+import { AuthService } from '../shared/auth.service';
 
 describe('LoginComponent', () => {
   let component: LoginComponent;
@@ -21,7 +21,7 @@ describe('LoginComponent', () => {
       imports: [HttpModule,FormsModule,RouterTestingModule],
       declarations: [ LoginComponent ],
       schemas: [ NO_ERRORS_SCHEMA ],
-      providers: [UserService,{provide: APP_BASE_HREF, useValue: '/'}],
+      providers: [AuthService,{provide: APP_BASE_HREF, useValue: '/'}],
     })
     .compileComponents();
   }));
