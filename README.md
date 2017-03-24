@@ -1,12 +1,18 @@
 [![Build Status](https://travis-ci.org/steadglobal/angular2-jwt-boilerplate.svg?branch=master)](https://travis-ci.org/steadglobal/angular2-jwt-boilerplate) [![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/npm.svg)]()
 
-# Angular2JWTBoilerplate
+# About this module
 
 Sample  Angular2 full-stack project to demonstrate JWT authentication.
 
-The front-end of this project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+angular2-jwt-boilerplate is based on JWT Authentication with the following features:
 
-This project uses the [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)):
+* simple front-end template with a login and registration form
+* redirection to the login form if unlogged user tries to access secure page (here profile page)
+* defining if particular webpage should require authentication 
+
+
+This project uses the **MEAN** stack, the front-end of this project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
 * [Mongoose.js](http://www.mongoosejs.com) ([MongoDB](https://www.mongodb.com)): database
 * [Express.js](http://expressjs.com): backend framework
 * [Angular 2](https://angular.io): frontend framework
@@ -25,7 +31,7 @@ This project uses the [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_
 2. Command window 2: `npm run server`: run Express backend server (with autoreload)
 3. Command window 3: `npm run client`: run Angular frontend (with autobuild and autoreload)
 4. Browser will automatically open to: [localhost:4200](http://localhost:4200)
-5. Run `npm run all` , it will execute both angular front end & express backend, **you can skip step 2 & 3 by this command.** 
+5. Run `npm start` , it will execute both angular front end & express backend, **you can skip step 2 & 3 by this command.** 
 
 
 ## Build

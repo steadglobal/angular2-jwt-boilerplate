@@ -15,11 +15,10 @@
       <li class="nav-item">
         <a class="nav-link" href="/profile" routerLinkActive="active">Profile</a>
       </li>
-      <li class="nav-item" *ngIf="!authService.loggedIn()">
+      <li class="nav-item" *ngIf="!authService.loggedIn();">
         <a class="nav-link" href="/login" routerLinkActive="active">Login</a>
       </li>
-      
-      <li class="nav-item" *ngIf="authService.loggedIn()">
+      <li class="nav-item" *ngIf="authService.loggedIn();">
         <a class="nav-link" href="/login" routerLinkActive="active">Logout</a>
       </li>
       
