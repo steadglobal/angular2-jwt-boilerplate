@@ -23,10 +23,11 @@ export class AuthService {
         return this.http.post('/api/login', { email: username, password: password }, this.options)
             .map((response: Response) => {
                 let token = response.json() && response.json().token;
+                let user = response.json() && response.json().user;
                 if (token) {
                     this.token = token;
                     localStorage.setItem('id_token', token);
-                    localStorage.setItem('currentUser', JSON.stringify({ email: username, token: token }));
+                    localStorage.setItem('currentUser', JSON.stringify(user));
                     return true;
                 } else {
                     return false;
