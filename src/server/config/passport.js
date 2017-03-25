@@ -26,6 +26,7 @@ passport.use(new LocalStrategy({
           message: 'User not found'
         });
       }
+      console.log("check valid password");
       // Return if password is wrong
       if (!user.validPassword(password)) {
         return done(null, false, {

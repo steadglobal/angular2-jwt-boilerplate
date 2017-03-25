@@ -26,6 +26,7 @@
     "@angular/platform-browser-dynamic": "^2.3.1",
     "@angular/router": "^3.3.1",
     "angular2-jwt": "^0.1.28",
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.16.1",
     "concurrently": "^3.4.0",
     "core-js": "^2.4.1",
